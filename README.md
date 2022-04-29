@@ -1,83 +1,88 @@
-# Web Typography, 2020/2021
+## Verantwoording
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+In deze verantwoording wil ik in het kort uitleggen wat mijn developmentgeschiedenis is geweest tijdens deze opdracht en wil ik mijn keuzes onderbouwen. Ik heb drie verschillende uitgangspunten in mijn verantwoording. De "sounds" die ik bewerkt heb met CSS, de voices die ik bewerkt heb met CSS en de typografie die ik heb uitgekozen.
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+Hieronder geef ik per class aan wat ik ontworpen heb en waarom ik hiervoor gekozen heb.
 
-Dat kan visueel sterker. 
+------------------------------------------
+# Sound0
 
-En dat gaan jullie doen.
+Voor het eerste geluidsfragment heb ik er voor gekozen om een soort donder/bliksem effect te gebruiken om de "drums" na te bootsen die in het geluid terugkomen. Deze drums heb ik gecreeerd door middel van gradient te gebruiken.
 
-## Leerdoelen
+# Sound1
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+Voor het tweede geluidsfragment heb ik gekozen voor een alarm effect met de kleur rood. Ook dit effect heb ik gecreeerd door middel van een gradient te gebruiken. Bij het horen van het geluid kreeg ik het idee van een alarm wat je hoort bij gesloten inrichtingen als de deur open/dicht gaat.
 
-## Oplevering
+# Sound2
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
+Voor het derde geluidsfragment heb ik gekozen om politiesirenes na te bootsen met de kleuren zwart, blauw en rood. Het geluid klonk voor mij als een sirene van een politiewagen. Ook hier heb ik een gradient voor gebruikt. Om de sirene extra na te bootsen heb ik ook een 'scale' op de Iframe gezet om meer effect te creeren.
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
+# Sound3
 
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
+Het vierde geluidsfragment zat naar mijn idee een beetje klem tussen de derde en de vijfde fragment. Hierdoor heb ik ervoor gekozen om de achtergrond zwart te houden tijdens dit geluidsfragment en verder geen stijl hier aan mee te geven.
+
+# Sound4
+
+Bij het vijfde geluidsfragment kwam de eerste hoge pieptoon. Deze pieptoon liet mij denken aan een soort ondervragingsmethode waarbij ze licht therapie gebruiken om zo irritatie op te wekken. Hierdoor heb ik er dus ook voor gekozen met box-shadows om een soort felle irritante flits te creeren die staat voor de hoge pieptoon. Deze flits komt 3 keer terug, zowel bij sound6 als bij sound7.
+
+# Sound5
+
+Bij het zesde geluidsfragment was er niet echt een soort geluid te vinden op de achtergrond maar de stem van voice3 die zegt "fuck off..". Doordat deze zin niet krachtig wordt uitgesproken maar wel met irritatie heb ik ervoor gekozen om de tekst kleiner te maken maar wel met een gele schaduw om zo een flitsend effect te creeren van de tekst die van het ene punt naar het andere punt springt. Daarnaast heb ik het Iframe ook dezelfde kleuren geel gegeven zodat het bij elkaar past. Het is geen hele opzichtelijke aanpassing maar wel flitsend en duidelijk genoeg om te zien dat het om irritatie gaat.
+
+# Sound6
+
+Hier komt nog een keer de witte flits.
+
+# Sound7
+
+Hier komt nog een keer de witte flits.
+
+# Sound8
+
+Sound8 heb ik gebruikt om de overgang tussen sound7 en sound9 soepel te laten verlopen. Ik heb hier alleen een background:black op gezet.
+
+# Sound9
+
+Sound9 heb ik gebruikt om een verloop van zwart naar wit op de achtergrond te zetten, samen met flitsende tekst die een schaduw heeft van zwart naar wit en het Iframe die inzoomt. Doordat de hoofdpersoon ondervraagd wordt op een irritante manier heb ik ervoor gekozen om de tekst ook irritant te maken en de tekst steeds te laten verspringen als de ondervrager aan het woord is. Om helemaal op te gaan in de omgeving heb ik ook het Iframe ingezoomd zodat je het gevoel krijgt dat je in het beeld getrokken wordt. De witte achtergrond is te associeren met de witte flitsen van voorgaande sounds.
+
+# Sound10
+
+Sound10 is in de tweede scene. In de tweede scene is de sfeer anders dan in de eerste scene. Je ziet ook dat de test niet goed afloopt voor de hoofdrolspeler. Om deze sfeer te creeren heb ik ervoor gekozen om hetzelfde te doen als bij sound9 (waar ook de test werd afgelegd) maar zonder de "visual" helemaal te voltooien. Het beeld blijft grijs in plaats van dat het helemaal naar wit gaat en de Iframe wordt niet helemaal ingezoomd maar blijft haperen op een bepaald % en wordt daarna weer ze normale grote. Ik heb hiervoor gekozen om zo een duidelijk beeld te creeren dat de test niet goed afloopt, dat er een zoomend geluid is die blijft haperen en dat de piepjes op de achtergrond lijken te vallen.
+
+# Sound11
+
+Sound11 is geen geluidsfragment maar ik wilde de video afsluiten met een rode achtergrond om zo duidelijk aan te geven dat de hoofdrolspeler de test niet heeft gehaald. Ik heb een extra sound toegevoegd in de Javascript en die heb ik bewerkt met een rode background.
+
+------------------------------------------
 
 ## Typografische restricties
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
+Voor de fonts heb ik gekozen voor de 'Brenner' familie. Ik heb hiervoor gekozen omdat deze fonts veel verschillende stijlen kent waardoor je stemmen zonder geluid goed kan onderscheiden van elkaar. Daarnaast vond ik de stijl van deze fonts goed passen bij de sfeer die naar voren komt in het videofragment.
 
-### Optie 1: Systeemfont
+# Voice1
 
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
+Voice1 heb ik in de eerste 2 spans bewerkt met een soort robotachtig effect om het gevoel te creeren dat er vanuit een andere omgeving tegen de hoofdrolspeler gepraat werd. Daarnaast heeft voice1 een soort robotachtige lettertype. Ik heb hiervoor gekozen om aan te tonen dat er geen emotie in de stem van deze voice zit.
 
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
+- Fonts: 'Brenner Mono'
 
-### Optie 2: Brenner
+# Voice2
 
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
+Voice2 is de stem van de hoofdrolspeler. Deze tekst wilde ik zo duidelijk mogelijk houden om een gevoel te creeren dat de hoofdrolspeler geen irritante factor is in het videofragment.
 
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
+- Fonts: 'Brenner Sans'
 
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
+# Voice3
 
-## Het fragment
+Voice3 is de stem van de man die "fuck off" zegt. Om de extra irritatie over te brengen maar dat het niet te opzichtig was heb ik deze zin verkleind maar wel een irritante schadow gegeven.
 
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
+- Fonts: 'Brenner Slab'
 
-### De captions
+# Voice4
 
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
+Voice4 is de stem van een persoon die praat als de test afgelopen is. Ik heb deze voice een hele stijve fonts gegeven om ook hier weer te benadrukken dat er geen emotie te vinden is in deze stem. Meer alsof er een computer tegen je praat in plaats van een mens.
 
-Met JavaScript worden er een paar dingen extra gedaan: 
+- Fonts: 'Brenner Slab'
 
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
 
-### Tijdens het afspelen
 
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
 
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
